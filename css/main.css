@@ -1,0 +1,63 @@
+* {
+  background-color: #c9b5ab;
+  line-height: 1.125;
+  font-family: "PT Sans";
+}
+
+a:link {
+  color: #8f2440;
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3f1622;
+}
+
+ol {
+  list-style-type: none;
+}
+
+figcaption {
+  text-align: center;
+}
+
+h2 {
+  color: #3f1622;
+}
+
+h1 {
+  color: #3f1622;
+}
+
+main p:nth-child(2) {
+  font-family: "PT Serif";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+blockquote p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-family: "PT Serif";
+}
+
+.nutritional dt {
+  font-weight: bold;
+}
+
+.nutritional p {
+  font-style: italic;
+}
+
+.common li {
+  list-style-type: lower-greek;
+}
+
+.tags li {
+  font-size: 0.8rem;
+  list-style-type: circle;
+}
